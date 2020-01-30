@@ -55,3 +55,12 @@ Repositório pra compartilhar códigos, documentos e projetos da galera
      (...)
  ```
  Simples!
+
+ ## Mas... Por quê?
+
+ * uma forma de se incentivar a programar de forma mais constante e se divertindo, fora do que é obrigatório pela faculdade ou pelo trabalho
+ * uma forma fácil de guardar e compartilhar códigos reutilizáveis e materiais de estudo
+ * um jeito de começar a criar coisas para seu porfólio como programador
+ * uma forma boa de revisar/reaprender conceitos e tecnologias, e deixar num local de fácil acesso para revisitar
+ * um jeito fácil de tirar do papel algumas idéias junto com seus amigos
+ * "porque eu quis"
