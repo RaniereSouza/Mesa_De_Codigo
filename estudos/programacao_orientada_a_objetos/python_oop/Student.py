@@ -5,12 +5,12 @@ class Student (Person) :
 
     #costructor function
     def __init__ (self, name, age, institution) :
-        super().__init__(name, age)    #attributes 1 and 2 declared and instantiated with parent class (superclass) constructor
-        self.institution = institution #attribute 3 (declaration + instantiation)
+        super().__init__(name, age)      #attributes 1 and 2 declared and instantiated with parent class (superclass) constructor
+        self.__institution = institution #attribute 3 (declaration + instantiation)
     
     #methods 1 and 2 defined at parent class (superclass)
 
     #method 3
     def studentAt (self) :
         whereDoesItStudy = "{} is a student at {}."
-        print(whereDoesItStudy.format(self.name, self.institution))
+        print(whereDoesItStudy.format(self.name, self.__institution))
