@@ -7,6 +7,8 @@ Repositório pra compartilhar códigos, documentos e projetos da galera
 * uma pasta geral de projetos, com uma pasta individual para cada projeto/mockup que o grupo resolver fazer em conjunto, com a estrutura pré-estabelecida daquele projeto
 * pasta de estudos, dividida internamente por assuntos/linguagens, com códigos e documentos relacionados aos temas
 
+> Observação: é preciso pensar em usar submódulos do Git para termos uma maior independência entre as pastas do repositório. assim, ninguém seria obrigado a baixar a estrutura completa de pastas e arquivos (idéia vinda de conversa com [@Fermandomn](https://github.com/Fernandomn))
+
 ### Exemplo:
 
 ```
