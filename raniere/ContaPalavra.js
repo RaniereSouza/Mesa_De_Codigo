@@ -4,8 +4,8 @@
  * =============================== ContaPalavra.js ===============================
  * 
  * Entradas: 
- *           - o path de um arquivo de texto qualquer codificado em UTF-8;
- *           - um path dizendo qual será o arquivo de saída;
+ *         - o path de um arquivo de texto qualquer codificado em UTF-8;
+ *         - um path dizendo qual será o arquivo de saída;
  * 
  * Saídas: 
  *         - um log com um valor numérico, resultante da contagem de palavras;
