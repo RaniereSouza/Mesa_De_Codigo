@@ -1,9 +1,8 @@
 import sys
 
-args    = sys.argv
-name    = "World"
-message = "Hello, {}!"
+args = sys.argv
+name = "World"
 
 if len(args) > 1 : name = args[1]
 
-print(message.format(name))
+print("Hello, {}!".format(name))
