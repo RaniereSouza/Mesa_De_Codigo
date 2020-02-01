@@ -1,12 +1,14 @@
 /**
- * ContaPalavra.js
- *
- * @overview Código feito para testar as funcionalidades de leitura e escrita de arquivos de texto em Node.js, bem como implementar um reconhecimento e contagem de palavras via "brute force"
+ * @file Código feito para testar as funcionalidades de leitura e escrita de arquivos de texto em Node.js, bem como implementar um reconhecimento e contagem de palavras via "brute force"
  * 
- * Entradas: - o path de um arquivo de texto qualquer codificado em UTF-8;
+ * =============================== ContaPalavra.js ===============================
+ * 
+ * Entradas: 
+ *           - o path de um arquivo de texto qualquer codificado em UTF-8;
  *           - um path dizendo qual será o arquivo de saída;
  * 
- * Saídas: - um log com um valor numérico, resultante da contagem de palavras;
+ * Saídas: 
+ *         - um log com um valor numérico, resultante da contagem de palavras;
  *         - um arquivo de texto com as palavras do arquivo de entrada, cada uma
  *           em uma linha;
  * 
