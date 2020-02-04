@@ -1,4 +1,4 @@
-from Cat import Cat #imports class Cat from file Cat.py (needed for inheritance)
+from . import Cat #imports class Cat from file Cat.py (needed for inheritance)
 
 #class definition: JapaneseCat --> inherits from (is a subclass of) Cat
 class JapaneseCat (Cat) :

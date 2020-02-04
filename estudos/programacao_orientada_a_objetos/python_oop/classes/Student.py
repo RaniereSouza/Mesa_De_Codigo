@@ -1,4 +1,4 @@
-from Person import Person #imports class Person from file Person.py (needed for inheritance)
+from . import Person #imports class Person from file Person.py (needed for inheritance)
 
 #class definition: Student --> inherits from (is a subclass of) Person
 class Student (Person) :

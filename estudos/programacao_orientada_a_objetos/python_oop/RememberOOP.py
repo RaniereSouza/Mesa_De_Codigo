@@ -1,8 +1,4 @@
-from Person       import Person  #imports class Person from file Person.py
-from Student      import Student #imports class Student from file Student.py
-from Cat          import Cat #imports class Cat from file Cat.py
-from JapaneseCat  import JapaneseCat #imports class JapaneseCat from file JapaneseCat.py
-from BrazilianCat import BrazilianCat #imports class BrazilianCat from file BrazilianCat.py
+from classes import * #import all classes from directory /classes
 
 #creating instances of Person
 person1 = Person("Raniere", 28)
