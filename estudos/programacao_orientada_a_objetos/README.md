@@ -2,7 +2,8 @@
 
 ## Material
 
-* [Java e Orientação a Objetos](https://www.caelum.com.br/download/caelum-java-objetos-fj11.pdf)
+* [Caelum - Java e Orientação a Objetos](https://www.caelum.com.br/download/caelum-java-objetos-fj11.pdf)
+* [Tutorialspoint - Object Oriented Python](https://www.tutorialspoint.com/object_oriented_python/object_oriented_python_tutorial.pdf)
 
 ## Conceitos Principais
 
