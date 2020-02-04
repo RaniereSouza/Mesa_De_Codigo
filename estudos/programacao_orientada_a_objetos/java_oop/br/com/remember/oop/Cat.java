@@ -20,6 +20,16 @@ public class Cat {
         System.out.println("the world has been blessed with " + Cat.catCounter + " cat" + plural + ". welcome!");
     }
 
+    //getter method for attribute species
+    public String getSpecies () {
+        return this.species;
+    }
+
+    //setter method for attribute species; a cat will always be a cat, so we keep this setter away
+    /* public void setSpecies (String newSpecies) {
+        this.species = newSpecies;
+    } */
+
     //getter method for attribute name
     public String getName () {
         return this.name;

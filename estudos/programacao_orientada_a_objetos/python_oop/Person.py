@@ -8,10 +8,8 @@ class Person :
 
     #method 1 
     def greet (self) :
-        greeting = "Hello, {}!"
-        print(greeting.format(self.name))
+        print("Hello, {}!".format(self.name))
     
     #method 2
     def howOld (self) :
-        tellAge = "{} is {} years old."
-        print(tellAge.format(self.name, self.__age))
+        print("{} is {} years old.".format(self.name, self.__age))

@@ -60,9 +60,9 @@ public class RememberOOP {
         //from now on, we will follow the rule of encapsulation, and all the classes we use will have private attributes
 
         //let's instantiate some Cats!
-        Cat          cat1 = new Cat("Tom"); //superclass of JapaneseCat and BrazilianCat
-        JapaneseCat  cat2 = new JapaneseCat("Yoruichi"); //sublass of Cat
-        BrazilianCat cat3 = new BrazilianCat("Satanas"); //subclass of Cat
+        Cat          cat1 = new Cat("Tom"); //instance from superclass of JapaneseCat and BrazilianCat
+        JapaneseCat  cat2 = new JapaneseCat("Yoruichi"); //instance of a subclass of Cat
+        BrazilianCat cat3 = new BrazilianCat("Satanas"); //instance of a subclass of Cat
 
         //we will now observe some polymorphism in action: using the same method name, and having different behaviours
 

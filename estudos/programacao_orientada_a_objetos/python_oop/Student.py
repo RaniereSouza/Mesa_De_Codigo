@@ -12,5 +12,4 @@ class Student (Person) :
 
     #method 3
     def studentAt (self) :
-        whereDoesItStudy = "{} is a student at {}."
-        print(whereDoesItStudy.format(self.name, self.__institution))
+        print("{} is a student at {}.".format(self.name, self.__institution))
