@@ -33,6 +33,22 @@ student2.greet()
 student1.studentAt()
 student2.studentAt()
 
+#let's save this instance so we can recover it later:
+storePerson1 = person1
+
+#Python is a dinamically typed language, so a variable will change it's type depending on the value that is passed to it
+#knowing that, this is a legal operation: we're passing the Student instance that is in the variable student1 to the variable person1 (previously of the type Person)
+person1 = student1
+
+#it calls the method 1 normally (as if it was student1)...
+person1.greet()
+
+#... and also method 3 (from what previously was in student1)
+person1.studentAt()
+
+#recovering the instance to it's original variable:
+person1 = storePerson1
+
 #it can be dangerous to keep class attributes as public! it means that it can be overwritten by anyone!
 #for example, you can do things like this:
 person2.name = "Rodrigo"
